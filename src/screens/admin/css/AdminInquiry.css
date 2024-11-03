@@ -1,0 +1,25 @@
+/* Custom styles for the Ant Design Table */
+
+/* Table header background color */
+.ant-table-thead > tr > th {
+  background-color: #00b96b !important; /* Dark blue header background */
+  color: #fcf7f7 !important; /* Red header text color */
+}
+
+/* Table row background color */
+.ant-table-tbody > tr > td {
+  background-color: #f3f3f3 !important; /* Light green background for rows */
+  color: #000 !important; /* Row text color */
+}
+
+/* Alternate row background color */
+.ant-table-tbody > tr:nth-child(odd) > td {
+  background-color: #ffffff !important; /* Darker green for odd rows */
+  color: #000 !important; /* Row text color */
+}
+
+/* Change hover color for rows */
+.ant-table-tbody > tr:hover > td {
+  background-color: #e0ebe6 !important; /* Light blue hover effect */
+  color: #1a8a71 !important;
+}

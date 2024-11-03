@@ -1,0 +1,113 @@
+.home-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  margin-right: 10px;
+}
+
+.navbar-logo img {
+  width: 70px;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.navbar-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-content {
+  padding: 0 48px;
+}
+
+.home-footer {
+  padding: 0 48px;
+  text-align: center;
+  background-color: #001529;
+  color: white;
+  height: 100px;
+}
+
+.home-hero-section {
+  background: url("../assets/hero-section.jpg") no-repeat center center;
+  position: relative;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin: 30px 0;
+  border-radius: 12px;
+}
+
+.home-feature-section {
+  padding: 20px 20px 50px 20px;
+  background-color: white;
+  border-radius: 12px;
+  margin: 30px 0;
+}
+
+.home-feature-section-title {
+  text-align: center;
+  color: #00b96b;
+}
+
+.home-feature-section-card {
+  border-radius: 12px;
+}
+
+.home-feature-section-card-icon {
+  font-size: 64px;
+  color: #00b96b;
+  margin-top: 24px;
+}
+
+.home-feature-section-card-meta {
+  text-align: center;
+}
+
+.home-about-us-section {
+  padding: 50px;
+  background-color: #00b96b;
+  margin: 30px 0;
+  border-radius: 12px;
+}
+
+.home-about-us-section-title {
+  color: white;
+}
+
+.home-about-us-section-paragraph {
+  color: white;
+}
+
+.home-about-us-section-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.home-footer-container-icons {
+  font-size: 24px;
+  color: #00b96b;
+}
+
+.home-contact-section {
+  background-color: white;
+  padding: 50px;
+  margin: 30px 0;
+  border-radius: 12px;
+}
+
+.home-contact-section-details {
+  color: grey;
+}

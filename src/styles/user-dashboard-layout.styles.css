@@ -1,0 +1,46 @@
+.user-dashboard-layout {
+  height: 100vh;
+}
+
+.user-dashbaord-layout-header {
+  display: flex;
+  align-items: center;
+}
+
+.user-dashbaord-layout-logo-image {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.user-dashbaord-layout-menu {
+  flex: 1;
+  min-width: 0;
+}
+
+.user-dashbaord-layout-avatar {
+  background-color: #00b96b;
+}
+
+.user-dashbaord-layout-content-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px 48px;
+  overflow: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.user-dashbaord-layout-content::-webkit-scrollbar {
+  display: none;
+}
+
+.user-dashbaord-layout-content {
+  flex-grow: 1;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.user-dashbaord-layout-footer {
+  text-align: center;
+}
