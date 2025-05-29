@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { userLogin } from "../../services/authService";
 import { loginStart, loginSuccess } from "../../redux/userSlice";
-import AdminLoginImg from "../../assets/innovation-pana.svg";
+/*import AdminLoginImg from "../../assets/innovation-pana.svg";*/
 import "../../styles/admin.styles.css";
 
 const { Title, Text } = Typography;
